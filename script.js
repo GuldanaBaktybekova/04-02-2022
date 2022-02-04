@@ -24,3 +24,14 @@ vasya.hobbies.display();
 // 2. Include age in the greeting.
 // 3. Try chaging name and age.
 // 4. Create method 'bye'.
+
+
+
+
+
+
+
+
+
+// document.body.style.background  = "red";
+// document.body.textContent = 'Hello world'
