@@ -33,5 +33,15 @@ vasya.hobbies.display();
 
 
 
-// document.body.style.background  = "red";
+// // document.body.style.background  = "red";
 // document.body.textContent = 'Hello world'
+
+
+let helloWorldDiv = document.getElementById("hello-world");
+
+helloWorldDiv.textContent = "Nice to meet you!";
+helloWorldDiv.style.background = "green";
+helloWorldDiv.style.color = "white";
+helloWorldDiv.style.textDecoration = "underline";
+helloWorldDiv.style.fontSize = "20px";
+
