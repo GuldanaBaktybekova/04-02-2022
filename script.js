@@ -59,6 +59,25 @@ for (let paragraph of  allParagraphs) {
   paragraph.style.color = "white";
 }
 
-// 
+// getElementByClassName
+
+let allHelloWorlds = document.getElementsByClassName("hello-world");
+for (let helloWorld of allHelloWorlds) {
+helloWorld.style.fontStyle = "italic";
+helloWorld.style.background = "yellow";
+helloWorld.style.color = "red";
+}
+
+// querySelectorAll
+
+let helloWorld2 = document.querySelector("#hello-world");
+helloWorld2.style.backgroundColor = "purple";
+
+let allHelloWorlds2 = document.querySelectorAll(".hello-world");
+
+for (let helloWorld of allHelloWorlds2) {
+  helloWorld.style.fontSize = "5px";
+}
+
 
 
