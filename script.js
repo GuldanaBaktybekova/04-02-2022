@@ -36,7 +36,7 @@ vasya.hobbies.display();
 // // document.body.style.background  = "red";
 // document.body.textContent = 'Hello world'
 
-
+// getElementById
 let helloWorldDiv = document.getElementById("hello-world");
 
 helloWorldDiv.textContent = "Nice to meet you!";
@@ -44,4 +44,21 @@ helloWorldDiv.style.background = "green";
 helloWorldDiv.style.color = "white";
 helloWorldDiv.style.textDecoration = "underline";
 helloWorldDiv.style.fontSize = "20px";
+
+// getElementsByTagName
+
+let allParagraphs = document.getElementsByTagName("p");
+
+for (let paragraph of  allParagraphs) {
+  paragraph.style.backgroundColor = "blue";
+}
+for (let paragraph of  allParagraphs) {
+  paragraph.style.fontWeight = "770";
+}
+for (let paragraph of  allParagraphs) {
+  paragraph.style.color = "white";
+}
+
+// 
+
 
