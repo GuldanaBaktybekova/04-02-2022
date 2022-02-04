@@ -1,12 +1,24 @@
 var vasya = {
   name: "Vasiliy",
   lastName: "Petrovskiy",
-  age: 25,
-  greet: function() {
-    document.write(`Hello, my name is ${this.name}!`);
+  age: 22,
+  hobbies: {
+    art: "drawing, singing",
+    display: function() {
+      document.write(`I love ${this.art}.`);
+    },
+  },
+
+  greet: function() { //method
+    document.write(`Hello, my name is ${this.name}! I'm ${this.age} years old.`);
+    
+    
   }
 }
 vasya.greet();
+vasya.hobbies.display();
+
+
 
 // 1. Call 'greet' method multiple times.
 // 2. Include age in the greeting.
